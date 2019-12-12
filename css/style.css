@@ -79,15 +79,28 @@ body {
   margin: 0 20px;
 }
 .recently-played {
+
 }
 .container-flex-song {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
-.container-flex-song .album {
-  height: 90px;
-  width: 90px;
+.album {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  margin: 10px 0;
+}
+.container-flex-mix {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.mix {
+  height: 150px;
+  width: 150px;
   background-color: red;
 }
 /* footer */
