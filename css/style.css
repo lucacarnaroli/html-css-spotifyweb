@@ -13,56 +13,6 @@ body {
   height: 100vh;
   background-color: red;
 }
-
-/* Fixed */
-/* footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 90px;
-  background-color: pink;
-}
-
-.main-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 320px;
-  height: calc(100% - 90px);
-  background: blue;
-}
-.main-content {
-  width: calc(100% - 320px);
-  margin-left: 320px;
-  padding: 20px;
-} */
-
-/* Float */
-/* .main {
-  height: calc(100% - 90px);
-  overflow: hidden;
-}
-.main:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-.main-nav {
-  float: left;
-  width: 320px;
-  height: 100%;
-  background: blue;
-}
-.main-content {
-  float: left;
-  width: calc(100% - 320px);
-  height: 100%;
-  background-color: orange;
-  overflow-y: scroll;
-} */
-
-
 /* Flex */
 .main {
   display: flex;
@@ -119,7 +69,27 @@ body {
   font-size: 20px;
   background-color: white;
 }
-
+.lista-main-top {
+  margin-top: 110px;
+  text-align: center;
+}
+.lista-main-top li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+.recently-played {
+}
+.container-flex-song {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.container-flex-song .album {
+  height: 90px;
+  width: 90px;
+  background-color: red;
+}
 /* footer */
 .footer {
   width: 100%;
