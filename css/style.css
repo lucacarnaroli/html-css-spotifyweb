@@ -36,6 +36,7 @@ body {
 .main-nav-header h2 {
   font-size: 30px;
   padding-top: 15px;
+  color: #fff;
 }
 .fa-spotify {
   padding-top: 5px;
@@ -83,6 +84,9 @@ body {
 }
 .title-playlist a:hover {
   color: rgb(187, 197, 200);
+}
+.title-playlist h3{
+  color: #fff;
 }
 /* /crea lista */
 /* main-nav-main */
@@ -170,9 +174,10 @@ body {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
+  color: rgb(187, 197, 200);
 }
 .recently-played {
-
+  padding-left: 15.5px;
 }
 .container-flex-song {
   display: flex;
@@ -183,17 +188,30 @@ body {
 .album {
   height: 150px;
   width: 150px;
-  background-color: red;
+  background-color: rgba(64, 70, 71, 0.9);
   margin: 10px 0;
+  position: relative;
+
 }
-.container-flex-mix {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.album .in:hover {
+  opacity: 20%;
 }
-.in {
-  background-color: blue;
-  padding: 40%;
+.fa-plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.fa-plus:hover {
+  display: none;
+}
+.container-flex-mix .album {
+  display: inline-block;
+  margin: 0.9%;
+}
+.in img {
+  width: 100%;
 }
 /* footer */
 /* .footer {
