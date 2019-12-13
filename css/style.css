@@ -129,6 +129,7 @@ body {
 .margin-navfooter-10 {
   padding-left: 5px;
 }
+/* main-nav-footer */
 
 
 /* main content */
@@ -149,11 +150,17 @@ body {
   height: 90px;
   padding: 5px;
   background-color: rgba(0, 0, 0, 0.5);
+  padding-right: 20px;
 }
 .btn {
   display: inline-block;
-  font-size: 20px;
-  background-color: white;
+  font-size: 15px;
+  background-color: inherit;
+  padding: 7px;
+  border-radius: 15px;
+  border: 1px solid rgb(187, 197, 200);
+  color: rgb(187, 197, 200);
+  text-decoration: none;
 }
 .lista-main-top {
   margin-top: 110px;
