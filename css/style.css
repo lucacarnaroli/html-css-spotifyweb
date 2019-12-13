@@ -62,10 +62,10 @@ body {
   color: #919496;
 }
 .menu-spotify a:hover {
-  color: rgb(187, 197, 200);
+  color: #fff;
 }
 .menu-spotify i:hover {
-  color: rgb(187, 197, 200);
+  color: #fff;
 }
 /* /main nav header */
 /* crea lista */
@@ -75,7 +75,7 @@ body {
   padding-top: 5px;
 }
 .fa-plus-square:hover {
-  color: rgb(187, 197, 200);
+  color: #fff;
 }
 .title-playlist {
   padding-left: 15px;
@@ -86,7 +86,7 @@ body {
   margin-left: 10px;
 }
 .title-playlist a:hover {
-  color: rgb(187, 197, 200);
+  color: #fff;
 }
 .title-playlist h3{
   color: #fff;
@@ -103,10 +103,15 @@ body {
   margin-top: 15px;
   padding-left: 15px;
 }
-.playlist li{
-  list-style: none;
+.playlist li {
   padding-bottom: 15px;
+}
+.playlist li a{
+  list-style: none;
   color: rgb(187, 197, 200,0.8);
+}
+.playlist li a:hover {
+  color: #fff;
 }
 /* /main-nav-main */
 /* main-nav-footer */
@@ -163,12 +168,11 @@ body {
   padding-right: 30px;
 }
 .call-to-action:hover .btn {
-  background-color: rgb(187, 197, 200, 0.5);
+  background-color: rgb(187, 197, 200, 0.6);
 }
 .btn {
   display: inline-block;
   font-size: 15px;
-  background-color: inherit;
   padding: 7px;
   border-radius: 15px;
   border: 1px solid rgb(187, 197, 200);
@@ -183,7 +187,13 @@ body {
   list-style: none;
   display: inline-block;
   margin: 0 20px;
+}
+.lista-main-top a {
   color: rgb(187, 197, 200, 0.8);
+}
+.lista-main-top a:hover{
+  color: #fff;
+  border-bottom: 3px solid green;
 }
 .recently-played {
   padding-left: 60px;
@@ -223,7 +233,6 @@ body {
   color: rgba(#dadfe2, 0.76);
   font-size: 45px;
 }
-
 .album .fa-play-circle {
   position: absolute;
   top: 50%;
@@ -233,12 +242,14 @@ body {
   color: #fff;
   display: none;
 }
-
 .in img {
   width: 100%;
 }
 .in {
   text-align: center;
+}
+.img-circle {
+  border-radius: 100%;
 }
 /* footer */
 /* .footer {
